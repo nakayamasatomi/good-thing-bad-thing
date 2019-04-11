@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <link rel="stylesheet" href="css/bootstrap.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-grid.min.css" />
+        <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
+        <link rel="stylesheet" href="css/lightbox.min.css" />
+        <link rel="stylesheet" href="database.css" />
+        <meta name="description" content="Scottish Fold store yanya" />
+        <title>Scottish Fold store yanya home</title>
+    </head>
+    <body>
+      <font face="ヒラギノ丸ゴ Pro W4">
+      <header id ="header">
+        <a class="suko" href="index.html">
+        <div class="header-content clearfix">
+            <img src="images/logo.pdf" width="180"alt=""></a>
+            <a class="home" href="index.html">
+              <img src="images/home.pdf" width="70"alt=""></a>
+              <a class="adout" href="adout.html">
+                <img src="images/adout.pdf" width="70"alt=""></a>
+                <a class="contact" href="contact.html">
+                  <img src="images/contact.pdf" width="70"alt=""></a>
+            </div>
+        </header>
+        <main role="main">
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <div id="main_visual_message">
+                      <div style="padding-bottom: 4px;">
+                        <div class="ribbon5">
+                          <h4>ようこそ『スコティッシュフォールド販売店 やんや』へ</h4><br>
+                        </div>
+                        <div class="box3">
+                            <br><h5>「こちらは子猫を紹介する子猫直販サイトです。」</h5>
+                              <p>健康でかわいい子猫を揃えています。<br />
+                              <p><span style="font-weight:bold">前にパタンと倒れた耳がチャームポイントのスコティッシュフォールドたち。</span><br />
+                                目・顔・足の指など全体的に丸みをおびている体に加え、<br />
+                                家庭的で環境の変化にあまり動じない性格も手伝い、どこか柔らかい印象を持たせる魅力的な猫です。<br />
+                              <br></p>
+                                <h4>ご希望の子猫を選択してください。</h4>
+                            <div class="row">
+                                <div class="col-sm-10 col-md-10 py-3 mx-auto">
+                                    <form class="form-inline mt-2 mt-md-0" id="search">
+                                        <div class="form-group">
+                                            <label class="mx-3" for="query-lab">年齢</label>
+                                            <select multiple class="form-control" id="query-generation">
+                                                <option value="" selected>全て</option>
+                                                <option value="114XXXXX">生後1〜50日</option>
+                                                <option value="113XXXXX">生後51〜100日</option>
+                                                <option value="112XXXXX">生後101〜300日</option>
+                                                <option value="111XXXXX">生後301〜600日</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="mx-3" for="query-lab">耳の形</label>
+                                            <select multiple class="form-control" id="query-lab">
+                                                <option value="" selected>全て</option>
+                                                <option value="折れ耳">折れ耳</option>
+                                                <option value="立ち耳">立ち耳</option>
+                                            </select>
+                                        </div>
+                                        <div class="form-group">
+                                            <label class="mx-4" for="query-style">性別</label>
+                                            <select multiple class="form-control" id="query-style">
+                                                <option value="" selected>全て</option>
+                                                <option value="おんなの子">おんなの子</option>
+                                                <option value="おとこの子">おとこの子</option>
+                                            </select>
+                                        </div>
+                                        <br><br>
+                                        <!-- <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <br>
+                                        <div class="form-group">
+                                          <label class="mx-5" for="query-name">地域</label>
+                                          <select multiple class="form-control" id="query-name">
+                                            <option value="" selected>全て</option>
+                                            <option value="北海道">北海道</option>
+                                            <option value="東北">東北</option>
+                                            <option value="関東">関東</option>
+                                            <option value="甲信越・北陸">甲信越・北陸</option>
+                                            <option value="中部・東海">中部・東海</option>
+                                            <option value="関西・近畿">関西・近畿  </option>
+                                            <option value="中国">中国</option>
+                                            <option value="四国">四国</option>
+                                            <option value="九州・沖縄">九州・沖縄</option>
+                                          </select>
+                                        </div>
+                                            <label class="mx-4" for="query-color">毛色</label>
+                                            <select multiple class="form-control" id="query-color">
+                                                <option value="" selected>全て</option>
+                                                <option value="ブラウンタビー＆ホワイト">ブラウンタビー＆ホワイト</option>
+                                                <option value="レッドマッカレルタビー">レッドマッカレルタビー</option>
+                                                <option value="トーティーシェル＆ホワイト">トーティーシェル＆ホワイト</option>
+                                                <option value="ブルークリーム">ブルークリーム</option>
+                                                <option value="レッドタビー＆ホワイト">レッドタビー＆ホワイト</option>
+                                                <option value="レッドクラシックタビー">レッドクラシックタビー</option>
+                                                <option value="クリーム＆ホワイト">クリーム＆ホワイト</option>
+                                                <option value="ダイリュートキャリコ">ダイリュートキャリコ</option>
+                                                <option value="カメオタビー">カメオタビー</option>
+                                                <option value="ブラック">ブラック</option>
+                                                <option value="ブルー＆ホワイト">ブルー＆ホワイト</option>
+                                                <option value="ダイリュートキャリコバーン">ダイリュートキャリコバーン</option>
+                                            </select>
+                                            <br><br><br><br><br> -->
+                                            <br><br>
+                                            <div class="col-sm-12 col-sm-offset-12">
+                                              <input type="image"src="images/kensaku.pdf" width="300"alt="">
+                                        <!-- <label><button class=b"mx-3 my-8 my-10 sm-10" type="submit">
+                                        <img src="images/kounyuu.pdf" width="300"alt=""></button></label>
+                                    </form> -->
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                      </div>
+            </section>
+            <div class="album py-5 bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="card mb-4 box-shadow">
+                                <a class="card-img-top">
+                                    <img id="photo" class="lazyload" data-src="holder.js/512x512?theme=thumb&bg=55595c&fg=eceeef&text=no image" src="" alt="" />
+                                </a>
+                                <div class="card-body">
+                                    <h5 class="card-title" id="titleJ"></h5>
+                                    <p class="card-subtitle" id="titleE"></p>
+                                    <div class="card-text py-1">
+                                        <p><span id="name"></span> / <span id="year"></span> / <span id="lab"></span></p>
+                                    </div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="btn-group">
+                                            <button type="button" class="btn btn-sm btn-outline-secondary" id="button_open">この子猫にする</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary" id="button_detail">掲載日</button>
+                                            <button type="button" class="btn btn-sm btn-outline-secondary" id="button_select">子猫ID</button>
+                                        </div>
+                                        <small class="text-muted pl-4" id="style"></small>
+                                    </div>
+                                    <div class="card-text pt-4" id="detail">
+                                        <p id="material"></p>
+                                    </div>
+                                    <div class="card-text pt-4" id="select">
+                                        <p id="comment"></p>
+                                        <p id="author"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="text-muted">
+          <div class="container">
+            <p class="float-right"><a href="#"><img src="images/top.pdf" width="100"alt=""></a></p>
+            <br>
+              <a class="home" href="index.html">
+              <img src="images/home.pdf" width="70"alt=""></a>
+              <a class="adout" href="adout.html">
+              <img src="images/adout.pdf" width="70"alt=""></a>
+              <a class="contact" href="contact.html">
+              <img src="images/contact.pdf" width="70"alt=""></a>
+          </div>
+        </footer>
+        <!-- Optional JavaScript -->
+        <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.lazyload.min.js"></script>
+        <script src="js/holder.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="database.js"></script>
+        <script src="gwdb.js"></script>
+      </font>
+    </body>
+</html>
